@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Simple Cast",
+    "slug": "simplecast",
+    "version": "0.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "br.com.nearfuturelab.simplecast",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ee67eb4f-7f0f-47a8-a079-fff499aecebf"
+      }
+    },
+    "owner": "andreluizrodper",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2e046ede-a623-466c-89d0-df00cbf75993"
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-2284465727555710~3148910773",
+          "iosAppId": "ca-app-pub-2284465727555710~3148910773"
+        }
+      ]
+    ]
+  }
+}
