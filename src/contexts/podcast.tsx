@@ -37,8 +37,8 @@ export const PodcastProvider = ({ children }) => {
   const [episode, setEpisode] = useState([]);
   const [episodes, setEpisodes] = useState([]);
   const [podcastDetails, setPodcastDetails] = useState([]);
-  const api_key = "LY7ZR7ZMQXA3J59SUY9E";
-  const api_secret = "tUxkrtMM8Aa$TkSJAkLAQrUmvSB^rd3U8ruc63gS";
+  const api_key = "";
+  const api_secret = "";
   const currentTime = Math.floor(Date.now() / 1000);
 
   const hash_data = api_key + api_secret + currentTime;
